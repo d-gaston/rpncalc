@@ -69,6 +69,11 @@
         </Win32>
       </Options>
     </Linking>
+    <Other>
+      <CustomOptions Value="-CX
+-XX
+-Xs"/>
+    </Other>
   </CompilerOptions>
   <Debugging>
     <Exceptions Count="3">

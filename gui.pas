@@ -278,7 +278,6 @@ begin
     if operandStack.Size < operandStack.capacity then
     begin
       operand := StrToFloat(numberString);
-      writeln(FloatToStr(operand));
       operandStack.push(StrToFloat(numberString));
       writeStackToListBox();
     end
